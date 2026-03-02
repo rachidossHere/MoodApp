@@ -74,6 +74,15 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
+
+      <ThemedView style={styles.stepContainer}>
+        <Link href="/calendar">
+          <Link.Trigger>
+            <ThemedText type="subtitle">Open Calendar</ThemedText>
+          </Link.Trigger>
+        </Link>
+        <ThemedText>Go view or edit your mood entries in the calendar screen.</ThemedText>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
